@@ -1,0 +1,18 @@
+Package: MVST
+Type: Package
+Title: Multi-variate ST modelling on globe
+Version: 1.0.1
+Date: 2017-03-09
+Author: Andrew Zammit-Mangion, Zhe Sha
+Maintainer: Andrew Zammit-Mangion <andrewzm@gmail.com>
+VignetteBuilder: knitr
+Description: A package for assessing the present-day sea-level rise
+    contribution of Antarctica from satellite data and GPS
+Depends: R (>= 2.14)
+Suggests: reshape2, shapefiles, knitr
+Imports: Matrix, spam, digest, maptools, ggplot2, raster, dplyr,
+        deldir, SDMTools, network, scales, grid, fields, plyr, gpclib,
+        matlab, actuar, akima, geometry, igraph
+License: GPL (>= 2)
+NeedsCompilation: yes
+Packaged: 2017-03-15 15:26:55 UTC; zs16444
