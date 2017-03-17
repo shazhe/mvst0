@@ -422,7 +422,7 @@ setMethod(".find_inc_matrix",signature(basis = "FEBasis"), function(basis,obs,mu
                          basis@pars$t,
                          obs@pol,
                          plotit=F,
-                         method="R",
+                         method="C",
                          ds=n_grid,
                          mulfun=mulfun,
                          muldata=muldata)
@@ -433,7 +433,7 @@ setMethod(".find_inc_matrix",signature(basis = "FEBasis"), function(basis,obs,mu
                      basis@pars$t,
                      obs@pol,
                      plotit=F,
-                     method="R",
+                     method="C",
                      ds=n_grid,
                      mulfun=mulfun,
                      muldata=muldata)
